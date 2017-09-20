@@ -168,6 +168,8 @@ input:focus, select:focus {
 	/* Firefox 18- */
 	color: pink;
 }
+
+/* select */
 select {
 	color: pink;
 	line-height: 1.9;
@@ -231,9 +233,6 @@ button:hover {
 }
 
 /* Valid HTML */
-
-
-/* Valid input values */
 
 input:invalid {
 	border-color: #DD2C00;

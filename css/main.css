@@ -1,0 +1,332 @@
+/*
+################
+              General Style
+################
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff url("../img/bg-header.png");
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    max-width: 50%;
+}
+
+/*
+################
+              Header Style
+################
+*/
+
+header {
+    
+  background:linear-gradient(rgba(29, 33, 36, 0.91), rgba(34, 40, 46, 0.91));
+  color: white;
+      
+}
+
+hr:first-of-type {
+    height: 5px;
+    color: aqua;
+    background-color: #2C3E50;
+    border: 0;
+    margin: 4px;
+    width: 100%
+}
+
+hr:last-of-type {
+    height: 2px;
+    color: aqua;
+    background-color: #2C3E50;
+    border: 0;
+    margin: 4px;
+    width: 100%
+}
+
+
+
+/*
+################
+              Heading Style
+################
+*/
+
+h1,h2 {
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2em;
+}
+
+h2 {
+    color: #22282e;
+    font-size: 1.8em;
+}
+
+.info {
+    padding: 2%;
+    text-align: center;
+    
+}
+
+.info h2 {
+    margin: 0;
+}
+
+.info p {
+    font-weight: lighter;
+}
+
+/*
+################
+              Form Style
+################
+*/
+
+/* wrap from */
+
+
+.wrap-form {
+	background-color: #fff; 
+	border-radius: 5px;
+	padding: 2%;
+	color: #22282e;
+}
+
+.wrap-form input:focus,
+.wrap-form select:focus,
+.wrap-form textarea:focus {
+	background: #fff;
+	color: #22282e;
+}
+
+/* form */
+form {
+    width: 100%;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin-bottom: 2em;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.form-legend {
+    margin-bottom: 25px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+    color: #03C9B1;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+label.news-title {
+    color: #22282e;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* input */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+       width:100%;
+    background: #efefef;
+    outline: none;
+    border: 2px solid #efefef;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    padding: 10px;
+    margin: 10px 0;
+    color: #888888;
+    -webkit-transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+  transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+    
+}
+
+textarea {
+	-webkit-transition: background-color 1s, border-color 1s, transform 1s;
+  	transition: background-color 1s, border-color 1s, transform 1s;
+}
+
+
+
+
+input:focus,
+select:focus {
+    outline: none;
+    text-align: left;
+}
+
+
+/* Placeholder css tricks */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+
+
+
+select {
+	color: pink;
+	line-height: 1.9;
+    font-size: 0.9em;
+    outline: none;
+      padding: 1px;
+  height: 32px;
+  border-radius: 2px;
+    
+}
+
+/* textareat */
+textarea {
+    margin-bottom: 0;
+    border: none;
+    background: #fff;
+}
+
+textarea:hover {
+    background-color: #2C3E50;
+}
+textarea:focus {
+  
+    color: #fff;
+}
+
+
+/* radio checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 5px 4px 15px 0;
+
+}
+
+
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+	font-weight: bold;
+    
+	
+}
+
+/* section news */
+section.news-section {
+	background-color: #efefef;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+
+/* button */
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #04e2b9;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 3px;
+  width: 100%;
+  border: 0;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+ transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+/* Valid HTML */
+/* Valid input values */
+	input:invalid {
+			border-color: #DD2C00;
+	}
+
+
+
+
+
+/*
+################
+              Media Queries Style
+################
+*/
+
+@media screen and (min-width:768px){
+    .wrap-form {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    .flex-contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .flex-contact label {
+        display: inline-block;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    
+    .flex-contact input,
+    .flex-contact select {
+        display: inline-block;
+        width: 78%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

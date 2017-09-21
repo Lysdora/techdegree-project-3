@@ -271,13 +271,16 @@ footer p {
 
 
 /* Valid HTML */
+/* This code don't pass css validator*/
 
-/*
-input:invalid 
-NOT WORKING CSS VALIDATOR
-	border-color: #DD2C00;
 
-*/
+input:invalid {
+border-color: #DD2C00;
+}
+
+	
+
+
 
 
 

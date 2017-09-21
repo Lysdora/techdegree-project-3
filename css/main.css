@@ -148,7 +148,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 	padding: 10px;
 	margin: 10px 0;
 	color: #888888;
-	-webkit-transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
+
 	transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
 }
 
@@ -278,6 +278,9 @@ NOT WORKING CSS VALIDATOR
 	border-color: #DD2C00;
 
 */
+
+
+
 
 /*
 ################

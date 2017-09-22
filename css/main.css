@@ -73,6 +73,8 @@ h2 {
 	color: #22282e;
 	font-size: 1.8em;
 }
+
+/* section info text style*/
 .info {
 	padding: 2%;
 	text-align: center;
@@ -81,7 +83,7 @@ h2 {
 	margin: 0;
 }
 .info p {
-	font-weight: lighter;
+	font-weight: 100;
 }
 
 /*
@@ -121,6 +123,7 @@ legend {
 .form-legend {
 	margin-bottom: 25px;
 }
+/* label */
 label {
 	display: block;
 	margin-bottom: 8px;
@@ -148,9 +151,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
 	padding: 10px;
 	margin: 10px 0;
 	color: #888888;
-
 	transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
 }
+
 
 /* select */
 select {
@@ -168,6 +171,8 @@ select {
 	border-radius: 2px;
 	transition: background-color 0.5s, border-color 0.5s, transform 0.5s;
 }
+
+/* textarea*/
 
 textarea {
     width: 100%;
@@ -214,10 +219,11 @@ input:focus, select:focus {
 :-moz-placeholder {
 	/* Firefox 18- */
 	color: pink;
+    
 }
 
 
-/* textareat */
+
 
 
 /* radio checkbox */
